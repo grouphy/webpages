@@ -47,7 +47,8 @@
 		
 		/*鼠标移入事件,1s改变背景色*/
 		.navbar a:hover {
-			display: inline-block;
+			text-decoration: none; /* 取消下划线 */
+  			color: inherit; /* 继承父元素的文本颜色 */
 			background-color: rgb(52,58,64);
 			transition: background-color 1s;
 		}
