@@ -47,7 +47,7 @@
 		
 		/*鼠标移入事件,1s改变背景色*/
 		.navbar a:hover {
-			
+			display: inline-block;
 			background-color: rgb(52,58,64);
 			transition: background-color 1s;
 		}
